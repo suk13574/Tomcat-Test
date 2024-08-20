@@ -1,4 +1,4 @@
-FROM maven:3.8.5-openjdk-8 AS build
+FROM maven:3.8.5-openjdk-11 AS build
 
 # 앱 소스 코드를 컨테이너의 작업 디렉토리에 복사
 COPY . /usr/src/app
